@@ -15,12 +15,6 @@
 	function run(clickedObj) {
 		$("#firstline").fadeOut('slow');
 		$('#intr')[0].pause();
-		/* $(clickedObj).animate({
-			width : '10px',
-			opacity : '0.2',
-			left : '1800px',
-			top : '100px'
-		}, 30000); */
 		$(clickedObj).animate({
 			width : '150px',
 			opacity : '0.7',
